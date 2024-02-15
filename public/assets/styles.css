@@ -1,0 +1,8 @@
+.brand__navbar {
+    padding: 0 0 0.5rem 0;
+    margin: 0;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }

@@ -1,312 +1,306 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Candyroll Tech, LLC</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
-<link rel="stylesheet" href="main.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta author="Candyroll Tech, LLC">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candyroll Tech</title>
 
-<style>
-html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
-.mySlides {display:none}
-.w3-tag, .fa {cursor:pointer}
-.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
-</style>
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
+    rel="stylesheet"
+    />
+    <!-- custom -->
+    <link
+    href="main.css"
+    rel="stylesheet"
+    />
+    <meta name="description" content="Candyroll Tech: Redefining innovation in software development, web development, and advertising. Based in Florida, USA, with global offices.">
+    <meta name="keywords" content="digital advertising, development agency, software development, web development, advertising, Candyroll Tech, Virginia Beach, Florida, Virginia, Hampton Roads, EAst Coast, London, United States, Norfolk, Chicago, Tampa, Orlando, Manhattan">  
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+  <!-- Container wrapper -->
+  <div class="container-fluid" style="padding: 0 0.5rem; margin: 0;">
+    <!-- Toggle button -->
+    <button
+      data-mdb-collapse-init
+      class="navbar-toggler"
+      type="button"
+      data-mdb-target="#navbarRightAlignExample"
+      aria-controls="navbarRightAlignExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
 
-<!-- Links (sit on top) -->
-<div class="w3-top">
-  <div class="w3-row w3-large w3-light-grey">
-    <div class="w3-col s3">
-      <button onclick="location.href='#'" class="w3-button w3-block" alt="Home">Home</button>
-    </div>
-    <div class="w3-col s3">
-      <button onclick="location.href='#plans'" class="w3-button w3-block" alt="Plans">Plans</button>
-    </div>
-    <div class="w3-col s3">
-      <button onclick="location.href='#projects'" class="w3-button w3-block" alt="Projects">Projects</button>
-    </div>
-    <div class="w3-col s3">
-      <button onclick="location.href='#contact'" class="w3-button w3-block" alt="Contact">Contact</button>
-    </div>
-  </div>
-</div>
-
-<!-- Content -->
-<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
-
-  <div class="w3-panel">
-    <h1 id="company-name">Candyroll Tech, LLC</h1>
-</div>
-
-<p class="lead">Candyroll Tech is a leading international software development agency offering full-service solutions with a specialization in e-commerce and tourism. With a global presence, our company has strategically established offices in areas such as Knightsbridge in the United Kingdom, Australia's Melbourne, Budapest in Hungary, and Helsinki in Finland. Headquartered in the vibrant state of Florida, USA, and complemented by a presence in the tech hub of Virginia, Candyroll Tech is dedicated to delivering innovative software solutions tailored to meet the diverse needs of our clients worldwide. Our commitment to excellence and a client-centric approach positions us as a trusted partner in the dynamic landscape of digital technology.</p>
-
-<br />
-
-
-  <!-- Slideshow -->
-  <div class="w3-container">
-    <div class="w3-display-container mySlides">
-      <img src="assets/media/receptionist.png" style="width:100%" alt="Office receptionist image">
-      <div class="w3-display-topleft w3-container w3-padding-32">
-          <span class="w3-white w3-padding-large w3-animate-bottom"><em>Bright and early</em></span>
-      </div>
-  </div>
-  
-  <div class="w3-display-container mySlides">
-      <img src="assets/media/teamwork.png" style="width:100%;" alt="Teamwork image">
-      <div class="w3-display-topleft w3-container w3-padding-32">
-          <span class="w3-white w3-padding-large w3-animate-bottom"><em>Together We Achieve More</em></span>
-      </div>
-  </div>
-  
-  <div class="w3-display-container mySlides">
-      <img src="assets/media/kimsdesk.jpeg" style="width:100%" alt="Kim's desk image">
-      <div class="w3-display-topright w3-container w3-padding-32">
-          <span class="w3-white w3-padding-large w3-animate-bottom"><em>Agile Development</em></span>
-      </div>
-  </div>
-  
-    <!-- Slideshow next/previous buttons -->
-    <div class="w3-container w3-dark-grey w3-padding w3-xlarge" role="toolbar" aria-label="Image Slider Controls">
-      <button class="w3-left" onclick="plusDivs(-1)" aria-label="Previous Slide">
-          <i class="fa fa-arrow-circle-left w3-hover-text-teal"></i>
-      </button>
-      <button class="w3-right" onclick="plusDivs(1)" aria-label="Next Slide">
-          <i class="fa fa-arrow-circle-right w3-hover-text-teal"></i>
-      </button>
-  
-      <div class="w3-center" role="navigation" aria-label="Image Slider Navigation">
-          <button class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)" aria-label="Go to Slide 1"></button>
-          <button class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)" aria-label="Go to Slide 2"></button>
-          <button class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)" aria-label="Go to Slide 3"></button>
-      </div>
-  </div>
-  
-  </div>
-  
-  <!-- Grid -->
-  <div class="w3-row w3-container">
-    <div class="w3-center w3-padding-64">
-      <h2 class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16" id="offer-heading">What We Offer</h2>
-  </div>
-  
-  <div role="list" class="w3-row">
-      <div role="listitem" class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
-          <h3>Design</h3>
-          <p>We assist in the design process to meet your business requirements.</p>
-      </div>
-  
-      <div role="listitem" class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
-          <h3>Development</h3>
-          <p>We will create your software or product to ensure it passes all tests and meets industry standards.</p>
-      </div>
-  
-      <div role="listitem" class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
-          <h3>Launch</h3>
-          <p>We perform a soft launch in a test market for product validation and ensure your company's money has not been wasted.</p>
-      </div>
-  
-      <div role="listitem" class="w3-col l3 m6 w3-black w3-container w3-padding-16">
-          <h3>Delivery</h3>
-          <p>Once the product is tested, we make the changes requested during the soft launch, train you on the product, and manage the software to ensure peace of mind.</p>
-      </div>
-  </div>
-
-  <!-- Grid -->
-  <div class="w3-row-padding" id="plans">
-    <div class="w3-center w3-padding-64">
-      <h2>Pricing Plans</h2>
-      <p>Choose a pricing plan that fits your needs. We offer endless support for our valued clients (hint: you're a valued client).</p>
-  </div>
-  
-  <div class="w3-third w3-margin-bottom" role="region" aria-labelledby="pricing-plan-website">
-      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-          <li class="w3-black w3-xlarge w3-padding-32" id="pricing-plan-website">Website</li>
-          <li class="w3-padding-16">No database</li>
-          <li class="w3-padding-16"><b>5</b> pages</li>
-          <li class="w3-padding-16"><b>2</b> Custom Emails</li>
-          <li class="w3-padding-16"><b>Optimized</b> <br/>For Search Engines</li>
-          <li class="w3-padding-16"><b>Best</b> <br/>For New Businesses</li>
-          <li class="w3-padding-16">
-              <h2 class="w3-wide">$1867</h2>
-              <span class="w3-opacity">one-time</span>
-              <h2 class="w3-wide">$133</h2>
-              <span class="w3-opacity">per month for maintenance / management</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-              <button class="w3-button w3-green w3-padding-large">Sign Up</button>
-          </li>
-      </ul>
-  </div> 
-
-  <div class="w3-third w3-margin-bottom" role="region" aria-labelledby="web-application-heading">
-    <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32" id="web-application-heading">Web Application</li>
-        <li class="w3-padding-16">Database included</li>
-        <li class="w3-padding-16">Choice of one of the following</li>
-        <li class="w3-padding-16"><b>Candyroll Tech's </b> <br/> E-Commerce Platform Development</li>
-        <li class="w3-padding-16"><b>POS System</b> <br/>with Inventory Management</li>
-        <li class="w3-padding-16"><b>Customer</b> <br/>Relationship Management</li>
-        <li class="w3-padding-16"><b>Appointment</b> <br/>Scheduling</li>
-        <li class="w3-padding-16"><b>Shopify</b> <br/>Development (additional $773)</li>
-        <li class="w3-padding-16">
-            <h2 class="w3-wide">$2,779</h2>
-            <span class="w3-opacity">one-time for selected software and setup</span>
-            <h2 class="w3-wide">$186</h2>
-            <span class="w3-opacity">per month for maintenance / management</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-green w3-padding-large">Sign Up</button>
-        </li>
-    </ul>
-</div>
-
-<div class="w3-third w3-margin-bottom" role="region" aria-labelledby="custom-application-heading">
-    <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32" id="custom-application-heading">Custom Application</li>
-        <li class="w3-padding-16">Database included</li>
-        <li class="w3-padding-16"><b>Web</b> <br/>(PWA, Web3, etc)</li>
-        <li class="w3-padding-16"><b>Desktop</b> <br/>(macOS, windows, linux)</li>
-        <li class="w3-padding-16"><b>Mobile</b> <br/>(iOS, Android)</li>
-        <li class="w3-padding-16"><b>White label</b> <br/>Licensing</li>
-        <li class="w3-padding-16">
-            <h2 class="w3-wide">Starting at $23,383</h2>
-            <span class="w3-opacity">one-time for the <a href="https://www.atlassian.com/agile/product-management/minimum-viable-product">Minimum Viable Product</a></span>
-            <h2 class="w3-wide">$371</h2>
-            <span class="w3-opacity">per month for maintenance / management</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-green w3-padding-large">Sign Up</button>
-        </li>
-    </ul>
-</div>
-
-  <!-- Grid -->
-  <div class="w3-row-padding" id="projects">
-    <div class="w3-center w3-padding-64">
-        <h2 class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16" id="recent-projects-heading">Recent Projects</h2>
-    </div>
-
-    <div class="w3-third w3-margin-bottom" role="article" aria-labelledby="project-1-heading">
-        <div class="w3-card-4">
-            <img src="assets/media/vacay.jpeg" alt="Blockchain Application" style="width:100%">
-            <div class="w3-container">
-                <h3 id="project-1-heading">Blockchain Application</h3>
-                <p class="w3-opacity">Web3, Cryptocurrency, Tourism</p>
-                <p class="w3-opacity">Estimated Completion August 2024</p>
-                <p>An industry-veteran approached our development team with an idea that he never thought would be possible due to technology limitations.</p>
-                <p><button class="w3-button w3-2021-cerulean w3-block" disabled>Currently In development</button></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="w3-third w3-margin-bottom" role="article" aria-labelledby="project-2-heading">
-        <div class="w3-card-4">
-            <img src="assets/media/amb.jpeg" alt="Ambulance Company" style="width:100%">
-            <div class="w3-container">
-                <h3 id="project-2-heading">Ambulance Company</h3>
-                <p class="w3-opacity">Donated December 2023</p>
-                <p>An ambulance company contacted us to modernize an existing website on a small budget while attracting a younger workforce. We did and loved it so much that we donated it. Review with redacted information at client request.</p>
-                <p><a href="https://emt2dev.github.io/ambulance/" class="w3-button w3-2021-french-blue w3-block">Visit</a></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="w3-third w3-margin-bottom" role="article" aria-labelledby="project-3-heading">
-        <div class="w3-card-4">
-            <img src="assets/media/rest.png" alt="Restaurant Ecosystem" style="width:100%">
-            <div class="w3-container">
-                <h3 id="project-3-heading">Path2Snacks</h3>
-                <p class="w3-opacity">Android, iOS, Web</p>
-                <p class="w3-opacity">Estimated Completion March 2024</p>
-                <p>A retired fast food General Manager approached us with a huge problem: there's no way to discover restaurants while on a road trip; until now.</p>
-                <p><button class="w3-button w3-2021-cerulean w3-block" disabled>Currently In development</button></p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Contact -->
-<div class="w3-container w3-center w3-padding-64" id="contact">
-  <h2 class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</h2>
-  
-  <address>
-      <p class="lead">Offices in Florida, Virginia,  Australia, The United Kingdom, Finland, and Hungary</p>
-  </address>
-  
-  <schedule>
-      <p class="lead">Monday: 8am to 8pm EST</p>
-      <p class="lead">Tuesday: 8am to 8pm EST</p>
-      <p class="lead">Wednesday: 8am to 8pm EST</p>
-      <p class="lead">Thursday: 8am to 8pm EST</p>
-      <p class="lead">Friday: 8am to 8pm EST</p>
-  </schedule>
-
-  <p class="lead"><strong>Headquartered in Lakeland Fl 33805</strong></p>
-
-  <p>Email: <a href="mailto:hello@candyrolltech.com">hello@candyrolltech.com</a></p>
-  <p>Phone: <a href="tel:8633151851">863-315-1851</a></p>
-</div>
-
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
-    <a href="#" class="w3-button w3-black w3-margin" aria-label="To the top">
-        <i class="fa fa-arrow-up w3-margin-right"></i>To the top
+    <a class="navbar-brand brand__navbar" href="#">
+      <img src="public/assets/media/images/logo/crt1.png" height="107rem" style="padding: 0 0 0 0; margin: 0; " alt="placeholder logo" >
     </a>
 
-    <!-- Social Media Icons (if needed) -->
-    <!--
-    <div class="w3-xlarge w3-section">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <!-- Hamburger bars for collapsed state -->
+    <button class="navbar-toggler" style="padding-bottom: 0; margin-bottom: 0;" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+      <!-- Left links -->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown">
+          <a
+            data-mdb-dropdown-init
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            aria-expanded="false"
+          >
+            Dropdown
+          </a>
+          <!-- Dropdown menu -->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="#">Action</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another action</a>
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled"
+            >Disabled</a
+          >
+        </li>
+      </ul>
+      <!-- Left links -->
     </div>
-    -->
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- 
+<header class="container d-flex align-items-center justify-content-center vh-100">
+    <div class="text-center">
+        <h1>Digital Advertising, Development, Education, Consulting, Service</h1>
 
-    <p class="lead">&#169; 2024 CandyrollTech, LLC</p>
-    <p class="lead">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
+        <p class="lead">At Candyroll Tech, we redefine the boundaries of innovation, bringing a touch of sophistication to the realms of software development, web development, and advertising. Nestled in the vibrant state of Florida, USA, our roots extend globally with strategically positioned offices around the world. We offer positive results, not excuses</p>
+    </div>
+</header> -->
+<header>
 
-<script>
-// Slideshow
-var slideIndex = 1;
-showDivs(slideIndex);
+    <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+    <div class="overlay"></div>
+  
+    <!-- The HTML5 video element that will create the background video on the header -->
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="public/assets/media/videos/planning.mp4" type="video/mp4">
+    </video>
+  
+    <!-- The header content -->
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">App Development, Education, and Consulting</h1>
+          <p class="lead mb-0">Serving our local communities in the United States and abroad</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Page section example for content below the video header -->
+  <section class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <p>At Candyroll Tech, we redefine the boundaries of innovation, bringing a touch of sophistication to the realms of software development, web development, and advertising. Nestled in the vibrant state of Florida, USA, our roots extend globally with strategically positioned offices around the world. We offer positive results, not excuses.</p>
+          <p class="mb-0">
+            <a href="mailto:hello@candyrolltech.com">Send us an email to get started!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+<section id="about">
+</section>
 
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
+<section id="services">
+  <div class="text-center">
+      <h4>Services</h1>
+  </div>
+  <div class="container justify-content-center" style="padding: 5rem 1rem;">
+    <div class="row">
+      <div class="col-lg-6">
+          <div class="card">
+            <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img src="public/assets/media/images/devs.jpg" class="img-fluid"/>
+              <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+              </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Software Development (App, Web)</h5>
+              <p class="card-text">Our development team has the knowledge and experience necessary to bring your vision to reality. Web, desktop, iOS, Android</p>
+              <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img src="public/assets/media/images/designer.jpg" class="img-fluid"/>
+              <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+              </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Graphic Design, Modeling, Animation</h5>
+              <p class="card-text">Our design team can create graphics, 2d/3d Graphics, and create animations for your company using industry standard technologies.</p>
+              <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Learn More</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+          <div class="card">
+            <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img src="public/assets/media/images/class.jpg" class="img-fluid"/>
+              <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+              </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Education & Consulting</h5>
+              <p class="card-text">Our US offices offer in-house training on topics related to your company: programming, SEO, marketing, training, and more!</p>
+              <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img src="public/assets/media/images/products.jpg" class="img-fluid"/>
+              <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+              </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Our platforms</h5>
+              <p class="card-text">We offer multiple platforms that fit your business needs. Thes include our flagships such as: Path 2 Snacks, My Baked Sugar, and more!</p>
+              <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Learn More</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demodots");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
+<section id="services">
+  <div class="text-center">
+      <h4>Happy Customers</h1>
+  </div>
+  <div class="container justify-content-center" style="padding: 5rem 1rem;">
+    <div class="row">
+      <div class="col-lg-4">
+          <div class="card" style="height: 60%;">
+            <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img src="public\assets\media\images\amb.png" class="img-fluid"/>
+              <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+              </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bal Ambulance Service</h5>
+              <p class="card-text">Our company was contracted to modernize a legacy website for one of the oldest ambulance companies in Louisiana. Here is the final draft, prior to delivering to the client.</p>
+              <a href="https://emt2dev.github.io/ambulance/" class="btn btn-info" data-mdb-ripple-init>View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card" style="height: 60%;">
+            <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img src="public\assets\media\images\path2snacks2 - Copy.jpg" class="img-fluid"/>
+              <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+              </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Path 2 Snacks</h5>
+              <p class="card-text">Our flagship website and mobile application designed specifically food trucks, travellers, and foodies!</p>
+              <a href="#!" class="btn btn-warning" aria-disabled="true" data-mdb-ripple-init>Coming soon</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card" style="height: 60%;">
+            <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img src="public\assets\media\images\beauty.jpg" class="img-fluid"/>
+              <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+              </div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Hella Pretty Cos.</h5>
+              <p class="card-text">Our company was contracted to create an ecommerce website and mobile application for this beauty supply company.</p>
+              <a href="#!" class="btn btn-warning" aria-disabled="true" data-mdb-ripple-init>Coming soon</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> -->
+    </ul>
+    <p class="text-center text-body-secondary">© 2024 Candyroll Tech, LLC</p>
+  </footer>
+</body>
+</html>
 
+
+    <!-- MDB -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
+    ></script>
 </body>
 </html>
